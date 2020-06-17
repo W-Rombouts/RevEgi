@@ -1,0 +1,14 @@
+Investigate the provided binary data file.
+
+Find the following strings:
+
+1. “Zuyd”
+2. Double happiness (囍)
+3. Pile of Poo (💩)
+4. BONUS: Our first names are somewhere in the file as well, using some other encoding...
+
+    Make a small report describing:
+
+1. What you found
+2. Where you found it (locations)
+3. How you found it. What tools? Include source, screenshots, howto's, etc.

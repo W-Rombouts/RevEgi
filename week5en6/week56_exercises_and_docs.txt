@@ -1,0 +1,29 @@
+Week 6 exercises for Reverse Engineering Data (RED).
+
+Provided is a file called stream.zustr. This is a multimedia file in the
+experimental ZUyd STReaming format. ZUSTR files simply chop up multiple streams
+in packets of some size and prefix them with an ID (which identifies which
+packets belong together) and a SIZE (which describes the amount of data a
+packet contains). So a ZUSTR file contains a contiguous array of the following
+structure, where blocks that share the same ID belong together:
+
+ID, SIZE, DATA, ID, SIZE, DATA, ID, SIZE, DATA, ID, SIZE, DATA
+
+This particular stream contains two media streams: IMAGE (frames) and SUB
+(text). The SUBs are easy (just text). The IMAGEs are in the experimental Zuyd
+Image Format. ZIF files have the following structure:
+
+"ZIF1", WIDTH, HEIGHT, REMAINING-SIZE,
+"COLR", PALETTE-SIZE, PALETTE-DATA,
+"DATA", DATA-SIZE, PIXEL-DATA
+
+Complete the following exercises:
+
+1. Recover the image data.
+   a. What do the images contain (visually)?
+   b. Can you convert the data to some mainstream format?
+2. Recover the subtitles.
+   a. What is the full text?
+3. How are the images and subtitles related?
+
+Good luck!
