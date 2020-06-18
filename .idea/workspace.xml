@@ -34,16 +34,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\week2" />
+      <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\Week7-9" />
+      <recent name="C:\Users\woute\PycharmProjects\ReverseEngi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\week5en6" />
       <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\week3en4" />
       <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\Week7-9" />
       <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\week2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\week2" />
-      <recent name="C:\Users\woute\PycharmProjects\ReverseEngi\Week7-9" />
-      <recent name="C:\Users\woute\PycharmProjects\ReverseEngi" />
     </key>
   </component>
   <component name="RunManager" selected="Python.PNGSplitToLayers">
@@ -61,28 +61,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week7tem9/BMP/BMPImageDeinterlacer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GifExtractor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ReverseEngi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week7tem9/GIF" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week7tem9/GIF/GifExtractor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,13 +135,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ZUFSInterpreter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReverseEngi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week7tem9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week7tem9/ZUFSInterpreter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.PNGSplitToLayers" />
+        <item itemvalue="Python.ZUFSInterpreter" />
         <item itemvalue="Python.BMPImageDeinterlacer" />
         <item itemvalue="Python.PNGtoBMPConverter" />
         <item itemvalue="Python.Week5en6" />
-        <item itemvalue="Python.GifExtractor" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +196,9 @@
       <workItem from="1592210043144" duration="11283000" />
       <workItem from="1592292226546" duration="4482000" />
       <workItem from="1592377677299" duration="892000" />
+      <workItem from="1592384399720" duration="11402000" />
+      <workItem from="1592397397147" duration="611000" />
+      <workItem from="1592398324133" duration="7122000" />
     </task>
     <servers />
   </component>
@@ -215,61 +218,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590571192975" />
-    <state width="956" height="336" key="GridCell.Tab.0.bottom" timestamp="1592297024522">
+    <state width="938" height="273" key="GridCell.Tab.0.bottom" timestamp="1592465846539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1590573993422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590573993422" />
-    <state width="956" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592297024522" />
+    <state width="938" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592465846539" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083889367" />
-    <state width="956" height="336" key="GridCell.Tab.0.center" timestamp="1592297024522">
+    <state width="938" height="273" key="GridCell.Tab.0.center" timestamp="1592465846539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1590573993421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590573993421" />
-    <state width="956" height="336" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592297024522" />
+    <state width="938" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592465846539" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083889366" />
-    <state width="956" height="336" key="GridCell.Tab.0.left" timestamp="1592297024522">
+    <state width="938" height="273" key="GridCell.Tab.0.left" timestamp="1592465846538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1590573993421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590573993421" />
-    <state width="956" height="336" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592297024522" />
+    <state width="938" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592465846538" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083889366" />
-    <state width="956" height="336" key="GridCell.Tab.0.right" timestamp="1592297024522">
+    <state width="938" height="273" key="GridCell.Tab.0.right" timestamp="1592465846539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1590573993421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="186" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590573993421" />
-    <state width="956" height="336" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592297024522" />
+    <state width="938" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592465846539" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083889367" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1592211141873">
+    <state width="1156" height="348" key="GridCell.Tab.1.bottom" timestamp="1592399050558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592211141873" />
+    <state width="1156" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592399050558" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083890375" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1592211141873">
+    <state width="1156" height="348" key="GridCell.Tab.1.center" timestamp="1592399050558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592211141873" />
+    <state width="1156" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592399050558" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083890375" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1592211141873">
+    <state width="1156" height="348" key="GridCell.Tab.1.left" timestamp="1592399050557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592211141873" />
+    <state width="1156" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592399050557" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083890375" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1592211141873">
+    <state width="1156" height="348" key="GridCell.Tab.1.right" timestamp="1592399050558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592211141873" />
+    <state width="1156" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592399050558" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591083890375" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1592225713179">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -292,10 +295,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="start" language="Python" />
-        <watch expression="filesList" language="Python" />
-        <watch expression="startData" language="Python" />
-        <watch expression="startData + int.from_bytes(size, 'big')" language="Python" />
+        <watch expression="copyBlockList" language="Python" />
+        <watch expression="newListSomeReason" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -303,7 +304,7 @@
     <SUITE FILE_PATH="coverage/ReverseEngi$WebPageParcer.coverage" NAME="WebPageParcer Coverage Results" MODIFIED="1588757863346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Rhino" />
     <SUITE FILE_PATH="coverage/ReverseEngi$PNGtoBMPConverter.coverage" NAME="PNGtoBMPConverter Coverage Results" MODIFIED="1592292353677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7tem9/BMP" />
     <SUITE FILE_PATH="coverage/ReverseEngi$ImageDecoder.coverage" NAME="ImageDecoder Coverage Results" MODIFIED="1591349185756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5en6" />
-    <SUITE FILE_PATH="coverage/ReverseEngi$PNGSplitToLayers.coverage" NAME="PNGSplitToLayers Coverage Results" MODIFIED="1592296457457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7tem9/BMP" />
+    <SUITE FILE_PATH="coverage/ReverseEngi$PNGSplitToLayers.coverage" NAME="PNGSplitToLayers Coverage Results" MODIFIED="1592465846534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7tem9/BMP" />
     <SUITE FILE_PATH="coverage/ReverseEngi$BMPImageDeinterlacer.coverage" NAME="BMPImageDeinterlacer Coverage Results" MODIFIED="1592294375229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7tem9/BMP" />
     <SUITE FILE_PATH="coverage/ReverseEngi$ZUFSInterpreter__1_.coverage" NAME="ZUFSInterpreter (1) Coverage Results" MODIFIED="1592214984695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7tem9" />
     <SUITE FILE_PATH="coverage/ReverseEngi$week2.coverage" NAME="week2 Coverage Results" MODIFIED="1592216940884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
@@ -311,7 +312,7 @@
     <SUITE FILE_PATH="coverage/ReverseEngi$tools.coverage" NAME="tools Coverage Results" MODIFIED="1589474267637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week2" />
     <SUITE FILE_PATH="coverage/ReverseEngi$run.coverage" NAME="run Coverage Results" MODIFIED="1589459973921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/ReverseEngi$Week5en6.coverage" NAME="Week5en6 Coverage Results" MODIFIED="1592226655154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5en6" />
-    <SUITE FILE_PATH="coverage/ReverseEngi$ZUFSInterpreter.coverage" NAME="ZUFSInterpreter Coverage Results" MODIFIED="1592211206039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7-9" />
+    <SUITE FILE_PATH="coverage/ReverseEngi$ZUFSInterpreter.coverage" NAME="ZUFSInterpreter Coverage Results" MODIFIED="1592464671385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7tem9" />
     <SUITE FILE_PATH="coverage/ReverseEngi$week3en4.coverage" NAME="week3en4 Coverage Results" MODIFIED="1590671353955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3en4" />
     <SUITE FILE_PATH="coverage/ReverseEngi$Opdrachtweek1.coverage" NAME="Opdrachtweek1 Coverage Results" MODIFIED="1588754600474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week1" />
   </component>

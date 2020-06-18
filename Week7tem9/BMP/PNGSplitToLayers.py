@@ -2,7 +2,7 @@
 from PIL import Image
 
 
-im = Image.open("banana_1Converted.bmp")
+im = Image.open("banana_1.png")
 
 
 im1 = Image.Image.split(im)
