@@ -1,4 +1,4 @@
-with open("Filestream8", 'rb') as f:
+with open("image.zif", 'rb') as f:
     content = f.read()
 
 with open('header.bmp', 'rb') as bmp:
@@ -26,6 +26,9 @@ pixelData = content[24 + int.from_bytes(paletteSize, 'little') + 8:24 + int.from
                                                                                        'little') + 8 + int.from_bytes(
                                                                                         dataSize, 'little')]
 
+print(int.from_bytes(fileWidth, 'little'),int.from_bytes(fileHeight, 'little'),int.from_bytes(fileSize, 'little'))
+
+
 paletteCounter = 0
 paletteList = []
 while paletteCounter < int.from_bytes(paletteSize, 'little'):
@@ -36,6 +39,7 @@ print(len(paletteList))
 
 pixelCounter = 0
 pixelList = []
+print(int.from_bytes(dataSize, 'little'))
 while pixelCounter < int.from_bytes(dataSize, 'little'):
     pixelList.append(pixelData[pixelCounter:pixelCounter + 4])
     pixelCounter += 4
@@ -46,6 +50,6 @@ for x in pixelList:
 
 pixelColorList.reverse()
 
-open("Image4.bmp", 'bw').write(b''.join(
+open("zifImage4.bmp", 'bw').write(b''.join(
     [headerID, fileSize, reservedSpace, startPixelArray, something, fileWidth[0:2], fileHeight[0:2], something2,
      b''.join(pixelColorList)]))

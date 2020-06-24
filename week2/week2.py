@@ -1,7 +1,7 @@
 import codecs
 import string
 
-filename = 'output'
+filename = 'casus6output'
 englishWordList = open('englishWordList.txt','r').read().strip().split('\n')
 
 matchedOutputFile = open(filename+'Matchedoutput.txt','w')

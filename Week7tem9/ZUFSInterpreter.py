@@ -10,7 +10,7 @@ class FileHeader:
         self.nameOfFile = nameOfFile
 
 
-fileCleaningMode = True
+bruteForceMode = True
 
 filename = 'casus.zufs'
 with open(filename, 'rb') as f:
@@ -31,7 +31,7 @@ startIndicator = 0
 endLine = -1
 headerBlocks = []
 locationListList = []
-for value in range(0, int.from_bytes(sizeOfFileTable, 'big')+1):
+for value in range(0, int.from_bytes(sizeOfFileTable, 'big') + 1):
     headerBlocks.append(value)
 locationListList.append(headerBlocks)
 
@@ -51,6 +51,40 @@ while endLine != 0:
 fileTable = blockList[2:(2 + int.from_bytes(sizeOfFileTable, 'big'))]
 
 fileData = blockList[(3 + int.from_bytes(sizeOfFileTable, 'big')):len(blockList) + 1]
+zifFile = []
+counter = 0
+skip = False
+headerFound = False
+for blockData in fileData:
+    if not headerFound and b''.join(blockData[0:2]).decode('utf-8', errors='ignore').__contains__("ZIF1"):
+        zifFile.append(b''.join(blockData))
+        headerFound = True
+
+    if len(set(blockData)) >= 4:
+        for byte in blockData:
+            if int.from_bytes(byte, 'little') < 4278190080:  # all colortable data is bigger than 000000ff
+                if int.from_bytes(byte, 'little') != 1096040772:  # Data Tag
+                    skip = True
+                break
+        if not skip:
+            zifFile.append(b''.join(blockData))
+    skip = False
+
+skip = False
+for blockData in fileData:
+    if len(set(blockData)) >= 4:
+        for byte in blockData:
+            if int.from_bytes(byte, 'little') > 266756:  # All blockdata is smaller than the colortable size
+                if int.from_bytes(byte, 'little') != 638264843:  # SlackSpace
+                    skip = True
+                break
+        if not skip:
+            counter += 1
+            zifFile.append(b''.join(blockData))
+        skip = False
+print(counter)
+with open('Diagonal Image Conversion/image.zif', 'bw') as zifContainer:
+    zifContainer.write(b''.join(zifFile))
 
 for file in fileList:
 
@@ -67,7 +101,7 @@ for file in fileList:
     locationList.pop()
     locationListList.append(locationList)
     foundBlockList = []
-    if not fileCleaningMode:
+    if not bruteForceMode:
         for x in locationList:
             foundBlockList.append(b''.join(fileData[x - 1]))
 
@@ -76,7 +110,7 @@ for file in fileList:
 
 newListSomeReason = []
 
-if fileCleaningMode:
+if bruteForceMode:
     copyBlockList = copy.deepcopy(blockList)
 
     for List in copyBlockList:
@@ -84,16 +118,10 @@ if fileCleaningMode:
             copyBlockList.remove(List)
         else:
             newListSomeReason.append(b''.join(List))
-with open('test.data', 'bw') as finalfinalFile:
-    finalfinalFile.write(b''.join(newListSomeReason))
+    with open('test.data', 'bw') as finalfinalFile:
+        finalfinalFile.write(b''.join(newListSomeReason))
 
-copyBlockList = newListSomeReason
-counterHeader = 0
-counterBody = 0
-foundParts = [newListSomeReason[32]]
-
-while counterHeader < len(newListSomeReason):
-    with open('TestImages/testH'+str(counterHeader)+'.bmp', 'bw') as imageFile:
-        imageFile.write(b''.join([b''.join(foundParts),newListSomeReason[counterHeader]]))
-    imageFile.close()
-    counterHeader += 1
+    copyBlockList = newListSomeReason
+    counterHeader = 0
+    counterBody = 0
+    foundParts = [newListSomeReason[11]]

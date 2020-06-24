@@ -1,6 +1,4 @@
-import os
 from PIL import Image
-
 
 def extractFrames(image):
     frame = Image.open(image)
@@ -13,6 +11,5 @@ def extractFrames(image):
         except EOFError:
             break;
     return True
-
 
 extractFrames('banana_3.gif')
